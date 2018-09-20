@@ -1,0 +1,10 @@
+------Started TC001_VerifyLoginWithInvalidCredentials------
+------Started TC001_VerifyLoginWithInvalidCredentials------
+----------Ended TC001_VerifyLoginWithInvalidCredentials -----
+------Started TC001_VerifyLoginWithInvalidCredentials------
+Clicked on Signin using with object : [[ChromeDriver: chrome on XP (691733729fe2448a4c2fce5f7aff5539)] -> link text: Sign in]
+Entered email address with : QATest3922@Gmail.comusing with object email : [[ChromeDriver: chrome on XP (691733729fe2448a4c2fce5f7aff5539)] -> id: email_create]
+------Started TC001_VerifyLoginWithInvalidCredentials------
+Clicked on Signin using with object : [[ChromeDriver: chrome on XP (29a14014a3642986d221ac82d0624d30)] -> link text: Sign in]
+Entered email address with : QATest8024@Gmail.comusing with object email : [[ChromeDriver: chrome on XP (29a14014a3642986d221ac82d0624d30)] -> id: email_create]
+----------Ended TC001_VerifyLoginWithInvalidCredentials -----
