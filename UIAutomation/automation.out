@@ -8,3 +8,27 @@ Entered email address with : QATest3922@Gmail.comusing with object email : [[Chr
 Clicked on Signin using with object : [[ChromeDriver: chrome on XP (29a14014a3642986d221ac82d0624d30)] -> link text: Sign in]
 Entered email address with : QATest8024@Gmail.comusing with object email : [[ChromeDriver: chrome on XP (29a14014a3642986d221ac82d0624d30)] -> id: email_create]
 ----------Ended TC001_VerifyLoginWithInvalidCredentials -----
+------Started TC001_VerifyLoginWithInvalidCredentials------
+Clicked on Signin using with object : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> link text: Sign in]
+Entered email address with : QATest5459@Gmail.comusing with object email : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: email_create]
+Clicked on submit using with object : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: SubmitCreate]
+Selected Radio button using with object : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: id_gender2]
+Entered FirstName with : QAusing with object firstname : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: customer_firstname]
+Entered LastName with : Testusing with object lastname : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: customer_lastname]
+Entered PassWord with : appleusing with object password : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: passwd]
+Day selected with : [[[[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: days]] -> tag name: option]using with object : org.openqa.selenium.support.ui.Select@79517588
+Month selected with : [[[[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: months]] -> tag name: option]using with object : org.openqa.selenium.support.ui.Select@79c7532f
+Year selected with : [[[[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: years]] -> tag name: option]using with object : org.openqa.selenium.support.ui.Select@5cde6747
+Entered FirstName in address section with : QABirundhausing with object FirtName_address : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: firstname]
+Entered LastName in address section with : TestPSusing with object LastName_address : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: lastname]
+Entered Company in address section with : Sesausing with object Company : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: company]
+Entered Address_1 in address section with : Avery Crossingusing with object Address_1 : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: address1]
+Entered City in address section with : Dublinusing with object City : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: city]
+State selected with : [[[[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: id_state]] -> tag name: option]using with object : org.openqa.selenium.support.ui.Select@2374d36a
+Entered Postcode in address section with : 43016using with object Postcode : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: postcode]
+Country selected with : [[[[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: id_country]] -> tag name: option]using with object : org.openqa.selenium.support.ui.Select@5bc9ba1d
+Entered Phone with : 6144405363using with object Phone : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: phone]
+Entered Mobile_Phone with : 6144405363using with object Mobile_Phone : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: phone_mobile]
+Entered Alias_address with : My addressAvery Crossingusing with object Alias_address : [[ChromeDriver: chrome on XP (d47e2329545b1a8a69bb562c853e9c81)] -> id: alias]
+Finally Clicked on Register button using with object : Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+----------Ended TC001_VerifyLoginWithInvalidCredentials -----

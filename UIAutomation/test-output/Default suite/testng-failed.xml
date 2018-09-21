@@ -5,9 +5,11 @@
     <classes>
       <class name="com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials">
         <methods>
-          <include name="beforeMethod"/>
+          <include name="startTest"/>
+          <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="f"/>
+          <include name="project"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials -->
     </classes>

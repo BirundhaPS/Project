@@ -1,16 +1,13 @@
 package com.test.automation.UIAutomation.homepage;
 
+import java.io.IOException;
+
+import org.apache.log4j.Logger;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.test.automation.UIAutomation.testBase.basePage;
 import com.test.automation.UIAutomation.uiActions.pageUI;
-
-import org.testng.annotations.BeforeMethod;
-
-import java.io.IOException;
-
-import org.apache.log4j.Logger;
-import org.testng.annotations.AfterMethod;
 
 public class TC001_VerifyLoginWithInvalidCredentials extends basePage{
   
@@ -26,14 +23,10 @@ public class TC001_VerifyLoginWithInvalidCredentials extends basePage{
 		log.info("----------Ended TC001_VerifyLoginWithInvalidCredentials -----");
   }
 	
-  @BeforeMethod
-  public void beforeMethod() throws IOException {
+  @BeforeClass
+  public void startTest() throws IOException {
 	  Launch(loadData("Browser"), loadData("Url"));
   }
 
-  @AfterMethod
-  public void afterMethod() {
-	  driver.close();
-  }
 
-}
+  }

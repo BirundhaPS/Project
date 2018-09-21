@@ -1,62 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Test Started Running :project]]>
-    </line>
-    <line>
-      <![CDATA[Retrying Testprojectwith statusFAILUREfor the1time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Test is Skipped :project]]>
-    </line>
-    <line>
-      <![CDATA[Test Started Running :project]]>
-    </line>
-    <line>
-      <![CDATA[Test Success:project]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\Aarkay007\Desktop\Selenium\Java\UIAutomation\src\main\java\com\test\automation\UIAutomation\success_screenshots\project_14_19_2018_09_14_39.png'><img src='C:\Users\Aarkay007\Desktop\Selenium\Java\UIAutomation\src\main\java\com\test\automation\UIAutomation\success_screenshots\project_14_19_2018_09_14_39.png' height='100' width='100'/></a>]]>
-    </line>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="132218" started-at="2018-09-20T01:12:28Z" finished-at="2018-09-20T01:14:41Z">
+  <suite name="Default suite" duration-ms="12944" started-at="2018-09-21T01:37:28Z" finished-at="2018-09-21T01:37:41Z">
     <groups>
     </groups>
-    <test name="TC001_VerifyLoginWithInvalidCredentials" duration-ms="132218" started-at="2018-09-20T01:12:28Z" finished-at="2018-09-20T01:14:41Z">
+    <test name="Default test" duration-ms="12944" started-at="2018-09-21T01:37:28Z" finished-at="2018-09-21T01:37:41Z">
       <class name="com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@42607a4f]" name="beforeMethod" is-config="true" duration-ms="48826" started-at="2018-09-20T01:12:28Z" finished-at="2018-09-20T01:13:17Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@eb21112]" name="startTest" is-config="true" duration-ms="12898" started-at="2018-09-21T01:37:28Z" finished-at="2018-09-21T01:37:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="project()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@42607a4f]" name="project" duration-ms="38219" started-at="2018-09-20T01:13:17Z" finished-at="2018-09-20T01:13:55Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (691733729fe2448a4c2fce5f7aff5539)] -> id: id_gender2] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'AARKAY', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\AARKAY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 691733729fe2448a4c2fce5f7aff5539]]>
-            </message>
+        </test-method> <!-- startTest -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@eb21112]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-09-21T01:37:41Z" finished-at="2018-09-21T01:37:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials.project() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (691733729fe2448a4c2fce5f7aff5539)] -> id: id_gender2] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'AARKAY', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\AARKAY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 691733729fe2448a4c2fce5f7aff5539
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at com.test.automation.UIAutomation.testBase.basePage.elementToClick(basePage.java:54)
-at com.test.automation.UIAutomation.uiActions.pageUI.AccountCreate(pageUI.java:55)
-at com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials.project(TC001_VerifyLoginWithInvalidCredentials.java:25)
+              <![CDATA[java.lang.NullPointerException
+at com.test.automation.UIAutomation.testBase.basePage.beforeMethod(basePage.java:107)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -78,45 +53,58 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Test Started Running :project]]>
-            </line>
-            <line>
-              <![CDATA[Retrying Testprojectwith statusFAILUREfor the1time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Test is Skipped :project]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- project -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@42607a4f]" name="afterMethod" is-config="true" duration-ms="3563" started-at="2018-09-20T01:13:56Z" finished-at="2018-09-20T01:13:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@42607a4f]" name="beforeMethod" is-config="true" duration-ms="24130" started-at="2018-09-20T01:13:59Z" finished-at="2018-09-20T01:14:23Z">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="project()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@42607a4f]" name="project" duration-ms="15320" started-at="2018-09-20T01:14:23Z" finished-at="2018-09-20T01:14:39Z">
+        <test-method status="SKIP" signature="project()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@eb21112]" name="project" duration-ms="0" started-at="2018-09-21T01:37:41Z" finished-at="2018-09-21T01:37:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.test.automation.UIAutomation.testBase.basePage.beforeMethod(basePage.java:107)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Test Started Running :project]]>
-            </line>
-            <line>
-              <![CDATA[Test Success:project]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\Aarkay007\Desktop\Selenium\Java\UIAutomation\src\main\java\com\test\automation\UIAutomation\success_screenshots\project_14_19_2018_09_14_39.png'><img src='C:\Users\Aarkay007\Desktop\Selenium\Java\UIAutomation\src\main\java\com\test\automation\UIAutomation\success_screenshots\project_14_19_2018_09_14_39.png' height='100' width='100'/></a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- project -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@42607a4f]" name="afterMethod" is-config="true" duration-ms="587" started-at="2018-09-20T01:14:40Z" finished-at="2018-09-20T01:14:41Z">
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@eb21112]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-21T01:37:41Z" finished-at="2018-09-21T01:37:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@eb21112]" name="endTest" is-config="true" duration-ms="0" started-at="2018-09-21T01:37:41Z" finished-at="2018-09-21T01:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
       </class> <!-- com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials -->
-    </test> <!-- TC001_VerifyLoginWithInvalidCredentials -->
-  </suite> <!-- Regression Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

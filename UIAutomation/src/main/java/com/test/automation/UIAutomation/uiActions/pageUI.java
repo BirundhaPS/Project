@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com.test.automation.UIAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials;
 import com.test.automation.UIAutomation.testBase.basePage;
 
 public class pageUI extends basePage
@@ -51,32 +50,52 @@ public class pageUI extends basePage
 		log.info("Entered email address with : " + email.getAttribute("value") + "using with object email : "+ email.toString());
 		System.out.println(email.getAttribute("value"));
 		Submit.click();
+		log.info("Clicked on submit using with object : "+ Submit.toString());
 		//Thread.sleep(3000);
 		elementToClick(30, Title_gen2);
 		Title_gen2.click();
+		log.info("Selected Radio button using with object : "+ Title_gen2.toString());
 		FirstName.sendKeys(loadData("firstname"));
+		log.info("Entered FirstName with : " + FirstName.getAttribute("value") + "using with object firstname : " + FirstName.toString());
 		LastName.sendKeys(loadData("lastname"));
+		log.info("Entered LastName with : " + LastName.getAttribute("value") + "using with object lastname : " + LastName.toString());
 		PassWord.sendKeys(loadData("password"));
+		log.info("Entered PassWord with : " + PassWord.getAttribute("value") + "using with object password : " + PassWord.toString());
 		 Select sel_day = new  Select(DOB_day);
 		 	sel_day.selectByValue("5");
+		 log.info("Day selected with : " + sel_day.getFirstSelectedOption() + "using with object : " + sel_day.toString());
 		 Select sel_month = new  Select(DOB_month);
 		 	sel_month.selectByValue("7");
+		 log.info("Month selected with : " + sel_month.getFirstSelectedOption() + "using with object : " + sel_month.toString());
 		 Select sel_year = new  Select(DOB_year);
 			 	sel_year.selectByValue("1987");
+		 log.info("Year selected with : " + sel_year.getFirstSelectedOption() + "using with object : " + sel_year.toString());
 	 	FirtName_address.sendKeys("Birundha");	
+	 	log.info("Entered FirstName in address section with : " + FirtName_address.getAttribute("value") + "using with object FirtName_address : " + FirtName_address.toString());
 	 	LastName_address.sendKeys("PS");
+	 	log.info("Entered LastName in address section with : " + LastName_address.getAttribute("value") + "using with object LastName_address : " + LastName_address.toString());
 	 	Company.sendKeys("Sesa");
+	 	log.info("Entered Company in address section with : " + Company.getAttribute("value") + "using with object Company : " + Company.toString());
 	 	Address_1.sendKeys("Avery Crossing");
+	 	log.info("Entered Address_1 in address section with : " + Address_1.getAttribute("value") + "using with object Address_1 : " + Address_1.toString());
 	 	City.sendKeys("Dublin");
+	 	log.info("Entered City in address section with : " + City.getAttribute("value") + "using with object City : " + City.toString());
 	 	Select sel_state = new  Select(State);
 	 		sel_state.selectByVisibleText("Ohio");
+	 	log.info("State selected with : " + sel_state.getFirstSelectedOption() + "using with object : " + sel_state.toString());
 	 	Postcode.sendKeys("43016");
+	 	log.info("Entered Postcode in address section with : " + Postcode.getAttribute("value") + "using with object Postcode : " + Postcode.toString());
 	 	Select sel_country = new  Select(Country);
 	 		sel_country.selectByVisibleText("United States");
+	 	log.info("Country selected with : " + sel_country.getFirstSelectedOption() + "using with object : " + sel_country.toString() );
 	 	Phone.sendKeys("6144405363");
+	 	log.info("Entered Phone with : " + Phone.getAttribute("value") + "using with object Phone : " + Phone.toString());
 	 	Mobile_Phone.sendKeys("6144405363");
+	 	log.info("Entered Mobile_Phone with : " + Mobile_Phone.getAttribute("value") + "using with object Mobile_Phone : " + Mobile_Phone.toString());
 	 	Alias_address.sendKeys("Avery Crossing");
+	 	log.info("Entered Alias_address with : " + Alias_address.getAttribute("value") + "using with object Alias_address : " + Alias_address.toString());
 	 	Button.click();
+	 	log.info("Finally Clicked on Register button using with object : "+ Button.toString());
 	}
 
 
